@@ -1,0 +1,116 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-container{
+    background-color: darkgrey;
+}
+.banner-colum{
+    background-color: rgb(56, 55, 55);
+}
+.navbar-container{
+    top: 0px;
+    background-color: #262B37;
+    position: sticky;
+    z-index: 2;
+
+}
+.about-container{
+    background-color: #00BDeD;
+}
+.about{
+    animation-name:slidein;
+    animation-timing-function: ease-in;
+    animation-duration: 1s ;
+    animation-play-state: running;
+    position: relative;
+    
+    
+}
+@keyframes slidein{
+    0%{
+        left: -100%;
+        visibility: hidden;
+    }
+   
+    100%{
+        left: 3px;
+        visibility: visible;
+    }
+}
+.education-container{
+    background-color: #EEEE;
+    color: brown;
+    font-weight: bolder;
+}
+.circle{
+    background-color: brown;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    color: white;
+    text-align: center;
+}
+/* 
+.card-body{
+    color: black;
+    background: grey;
+    
+} */
+
+.project-container{
+    background-color: cornflowerblue;
+   
+}
+.gallary-container{
+    background-color:#ff0057;
+  
+
+}
+
+.form-container{
+    background-color: #474D5D;
+}
+.inner-form{
+    background-color: #474d5d;
+}
+.bt-bg{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+.bt-bg:hover{
+    background-color:red;
+    border-radius: 300px;
+    color: white;
+}
+
+.footer-container{
+    background-color: royalblue;
+}
+
+/* .circle-1{
+background-color: white;
+
+width: 50px;
+height: 50px;
+display:inline-block;
+padding: 5px;
+border-radius: 100px;
+
+} */
+
+/* i{
+    
+   z-index: -1;
+   opacity: 5;
+} */
+.circle-1:hover{
+    background-color:#474d5d;
+
+}
+.material-icons{
+    color: white;
+  
+
+}
